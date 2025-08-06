@@ -45,10 +45,9 @@ function App() {
   return (
     <div className='min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 px-4'>
       <div className='w-full max-w-md p-6 rounded-2xl shadow-2xl bg-gray-900 text-white space-y-6'>
-        <h1 className="text-4xl  text-center text-orange-400 drop-shadow-md whitespace-nowrap">
+      <h1 className="text-4xl text-center text-orange-400 drop-shadow-md sm:whitespace-nowrap whitespace-normal leading-tight">
           🔐 Password Generator
         </h1>
-
 
         <div className='flex items-center bg-gray-800 rounded-lg overflow-hidden shadow-inner'>
           <input
